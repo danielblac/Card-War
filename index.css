@@ -23,13 +23,17 @@ button {
 
 button#new-deck {
     align-self: flex-start;
-    padding: 5px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 button.draw {
     font-size: 1.2em;
-    padding: 5px;
-    align-self: stretch;
+    padding: 10px;
+    width: 40%;
+    margin-bottom: 2em;
+    border-radius: 15px;
+    font-weight: bold;
 }
 
 div.card-slot {
